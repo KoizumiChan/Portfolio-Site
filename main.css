@@ -70,6 +70,20 @@ body{
     margin: 0px;
     display: flex;
 }
+.navbar-center{
+    background-color:#4C0CA0;
+    height:6rem;
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    display:flex;
+}
+.logo{
+    border-radius:100%;
+    height: 80%;
+    align-self: center;
+    margin-left: 20px;
+}
 /* navbar media query start*/
 @media screen and (min-width: 600px){
     .navbar-left{
@@ -81,11 +95,6 @@ body{
         width: 15%;
     }
     .navbar-center{
-        background-color:#4C0CA0;
-        height:6rem;
-        padding: 0px;
-        border: 0px;
-        margin: 0px;
         width: 70%;
     }
     .navbar-right{
@@ -108,11 +117,6 @@ body{
         width: 0%;
     }
     .navbar-center{
-        background-color:#4C0CA0;
-        height:6rem;
-        padding: 0px;
-        border: 0px;
-        margin: 0px;
         width: 100%;
     }
     .navbar-right{
