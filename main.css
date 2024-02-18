@@ -1,10 +1,127 @@
-.main{
-    background-color:#9842F0;
+/* body */
+body{
     padding: 0px;
     border: 0px;
     margin: 0px;
 }
-.navbar{
-    background-color:#7E13EC;
-    height:6rem;
+/*Main Content*/
+.main-container{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    display: flex;
 }
+/* Main content media query start*/
+@media screen and (min-width: 600px){
+    .main-left{
+        background-color:#9C51FF;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        width: 15%;
+        min-height: 100vh;
+    }
+    .main-center{
+        background-color:#6132A0;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        width: 70%;
+    }
+    .main-right{
+        background-color:#9C51FF;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        width: 15%;
+        min-height: 100vh;
+    }
+}
+@media screen and (max-width: 599px){
+    .main-left{
+        background-color:#9C51FF;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        width: 0%;
+        min-height: 100vh;
+    }
+    .main-center{
+        background-color:#6132A0;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .main-right{
+        background-color:#9C51FF;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        width: 0%;
+        min-height: 100vh;
+    }
+}
+/* Main content media query End*/
+/*Navbar*/
+.navbar-container{
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    display: flex;
+}
+/* navbar media query start*/
+@media screen and (min-width: 600px){
+    .navbar-left{
+        background-color:#7A14FF;
+        height:6rem;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        width: 15%;
+    }
+    .navbar-center{
+        background-color:#4C0CA0;
+        height:6rem;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        width: 70%;
+    }
+    .navbar-right{
+        background-color:#7A14FF;
+        height:6rem;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        width: 15%;
+    }
+}
+
+@media screen and (max-width: 599px){
+    .navbar-left{
+        background-color:#7A14FF;
+        height:6rem;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        width: 0%;
+    }
+    .navbar-center{
+        background-color:#4C0CA0;
+        height:6rem;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+    .navbar-right{
+        background-color:#7A14FF;
+        height:6rem;
+        padding: 0px;
+        border: 0px;
+        margin: 0px;
+        width: 0%;
+    }
+}
+/* navbar media query end*/
