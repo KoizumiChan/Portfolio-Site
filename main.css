@@ -174,9 +174,12 @@ body{
     font-family: "Abel", sans-serif;
     font-size:3vh;
     color:  var(--textColor);
+    margin-bottom:60px;
 }
 .text-header{
     font-size:50px;
+    margin-top:25px;
+    margin-bottom:25px;
 }
 .about {
     grid-area: menu;
@@ -186,12 +189,12 @@ body{
     flex-direction: column;
     text-align: center;
     width:70%;
-    margin:25px;
+    margin:10px;
 }
 .self-portrait {
     grid-area: main;
     align-self: center;
-    border-radius: 15%;
+    border-radius: 50px;
     margin: 50px;
     width:350px;
     height:auto;
@@ -212,7 +215,7 @@ body{
     background-color: var(--headerMidColor);
     width:250px;
     height:200px;
-    border-radius:15%;
+    border-radius:50px;
     display:flex;
     margin:10px;
     padding-bottom:20px;
@@ -232,18 +235,21 @@ body{
 .project-image{
     align-self:center;
     width:90%;
-    border-bottom-left-radius: 15%;
-    border-bottom-right-radius: 15%;
-    border-top-left-radius: 5%;
-    border-top-right-radius: 5%;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     margin:auto;
     margin-bottom:0px;
     justify-self:end;
 }
 @media screen and (max-width: 899px){
     .project-container{
-        width: 450px;
-        height:350px;
+        width: 95%;
+        height: 95%
+    }
+    .self-portrait{
+        max-width:80%;
     }
 }
 .stack-container{
