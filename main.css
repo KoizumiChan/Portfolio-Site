@@ -79,6 +79,8 @@ body{
 }
 .name{
     margin-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 0px;
     font-family: "Bebas Neue", sans-serif;
     font-size: 50px;
     color:  var(--navBarTextColor);
@@ -87,6 +89,7 @@ body{
     display:flex;
     align-self:center;
     align-items:center;
+    height: 100%;
 }
 .nav-right-container
 {
@@ -252,7 +255,7 @@ body{
 }
 .email-button{
     background-color: var(--headerMidColor);
-    color: var(--textColor);
+    color: var(--navBarTextColor);
     align-self:center;
     font-family: "Abel", sans-serif;
     font-size:25px;
@@ -262,7 +265,7 @@ body{
     border:none;
 }
 .email-button:hover{
-    color: white;
+    color: #9C51FF;
 }
 .email-button:active{
     background-color: var(--headerSideColor);
