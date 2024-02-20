@@ -5,8 +5,8 @@
 :root {
     --headerSideColor: #3C0A82;
     --headerMidColor: #250651;
-    --bodySideColor: #9C51FF; 
-    --bodyMidColor: #6132A0;
+    --bodySideColor: #B17AFF; 
+    --bodyMidColor: #7E4DC6;
     --navBarTextColor: white;
     --textColor: #160033;
 }
@@ -193,12 +193,14 @@ body{
     align-self: center;
     border-radius: 15%;
     margin: 50px;
-    width:30%;
+    width:350px;
     height:auto;
 }
 .text-body{
     margin-top:0px;
     font-size: 30px;
+    margin-left:10px;
+    margin-right:10px;
 }
 .projects{
     display:flex;
@@ -221,6 +223,11 @@ body{
     font-size:35px;
     color: var(--navBarTextColor);
     margin:5px;
+    text-decoration: none;
+    font-weight:1000;
+}
+.project-text:hover{
+    color: var(--bodySideColor);
 }
 .project-image{
     align-self:center;
@@ -230,11 +237,13 @@ body{
     border-top-left-radius: 5%;
     border-top-right-radius: 5%;
     margin:auto;
+    margin-bottom:0px;
+    justify-self:end;
 }
 @media screen and (max-width: 899px){
     .project-container{
-        width: 80%;
-        height:250px;
+        width: 450px;
+        height:350px;
     }
 }
 .stack-container{
@@ -278,7 +287,7 @@ body{
         width: 100%
     }
     .self-portrait{
-        width: 70%;
+        width:350px;
     }
     .projects{
         flex-direction:column;
@@ -290,6 +299,7 @@ body{
 .footer-center{
     height:40px;
     background-color: var(--headerMidColor);
+    display:flex;
 }
 .footer-left{
     height:40px;
@@ -298,6 +308,13 @@ body{
 .footer-right{
     height:40px;
     background-color: var(--headerSideColor);
+}
+.text-footer{
+    justify-self:center;
+    align-self:center;
+    margin:auto;
+    color:white;
+    font-family: "Abel", sans-serif;
 }
 @media screen and (min-width: 900px){
     .footer-left, .footer-right{
