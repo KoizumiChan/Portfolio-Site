@@ -190,6 +190,7 @@ body{
     text-align: center;
     width:70%;
     margin:10px;
+    animation: fade-in 1.5s ease-out;
 }
 .self-portrait {
     grid-area: main;
@@ -198,7 +199,16 @@ body{
     margin: 50px;
     width:350px;
     height:auto;
+    animation: fade-in 1.5s ease-out;
 }
+@keyframes fade-in {
+    0%{
+        opacity:0;
+        }
+        100%{
+            opacity:1;
+        }
+   }
 .text-body{
     margin-top:0px;
     font-size: 30px;
